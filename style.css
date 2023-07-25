@@ -1,4 +1,4 @@
-.menu :nth-child(1): .navbar{
+.menu :nth-child(1):hover .navbar{
 display:block;
 }
 .font-very-very-small{
