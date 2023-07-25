@@ -1,4 +1,7 @@
-
+. font-big{
+font-size:20px;
+font-weight:700;
+}
 
 .font-very-very-small{
     font-size: 8px;
