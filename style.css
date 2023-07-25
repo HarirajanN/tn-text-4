@@ -1,4 +1,6 @@
-
+.menu :nth-child(1): .navbar{
+display:block;
+}
 .font-very-very-small{
     font-size: 8px;
     font-weight:900;
