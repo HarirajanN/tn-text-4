@@ -1,6 +1,10 @@
 .menu :nth-child(1):hover .navbar{
 display:block;
 }
+.navbar{
+display:none;
+}
+
 .font-very-very-small{
     font-size: 8px;
     font-weight:900;
