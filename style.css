@@ -1,0 +1,377 @@
+
+.font-very-very-small{
+    font-size: 8px;
+    font-weight:900;
+}
+.font-very-small{
+    font-size: 10px;
+    font-weight:600
+}
+
+.font-small{
+    font-size:11px;
+    font-weight: 600;
+}
+.font-mediam{
+    font-size: 12px;
+    font-weight: 700;
+}
+.font-large{
+    font-size: 15px;
+    font-weight: 700;
+}
+.zoom-in{
+    width: 20px;
+    height: 20px; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.zoom-out{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.top-bar-I{
+    height: 30px;
+    padding-top: 3px;
+}
+.top-bar-list-3{
+    margin-left: 50px;
+}
+.stalin{
+    width: 40px;
+    height: 60px;
+    margin-right: 0px;
+}
+.kaligner{
+    width: 40px;
+    height: 60px;
+}
+.govt-logo{
+    width: 150px;
+    height: 50px;
+}
+.independent-logo{
+    width: 70px;
+    height:60px;
+    
+}
+.font{
+  
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0.253);
+}
+
+
+.banner{
+    overflow-x: hidden;
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+   text-align: center;
+   display: none;
+}
+.bold{
+    font-weight: 900;
+}
+.align-btn{
+    display: inline-block;
+    position: relative;
+    bottom: -2px;
+}
+.align-btn-2{
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+.align-btn-3{
+    display: inline-block;
+    position: relative;
+    top:-15px ;
+    left: 50px;
+}
+.align-btn-4{
+    display: inline-block;
+    position: relative;
+    top:-10px ;
+    left: 70px;
+}
+.nav-btn{
+    position: relative;
+    top:1px;
+    right:5px
+}
+/*-------------------------------------Hover-Start------------------------------------*/
+.hover-me:hover{
+    background-color: rgba(240, 248, 255, 0.212);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.sub-menu-1{
+    display: none;
+    list-style:none;
+  
+    border: solid 1px black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav :nth-child(3):hover .sub-menu-1{
+     display: block;
+     position: absolute;
+     
+}
+.sub-menu-1-I{
+    display:none;
+    list-style:none;
+    border-radius: 5px;
+    
+    
+}
+.sub-menu-1 :nth-child(2):hover .sub-menu-1-I{
+    display:block;
+    position: absolute;
+    border: solid 1px black;
+    margin-left: 135px;
+    margin-top: -25px;
+    width: 150px;
+   
+}
+.sub-menu-1-I-1{
+    display: none;
+    list-style: none;
+    border: solid 1px black;
+    border-radius: 5px;
+
+}
+.sub-menu-1-I :nth-child(1):hover .sub-menu-1-I-1{
+    display: block;
+    position: absolute;
+    margin-left: 132px;
+    width: 200px;
+    margin-top: -45px;
+
+}
+.sub-menu-2{
+    display: none;
+    border: solid 1px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+.nav :nth-child(4):hover .sub-menu-2{
+    display: block;
+    position: absolute;
+}
+.sub-menu-2-I{
+    display: none;
+    margin-left: 165px;
+    margin-top: -35px;
+    border: solid 1px black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+
+}
+.sub-menu-2 :nth-child(2):hover .sub-menu-2-I{
+    display: block;
+    position: absolute;
+}
+.sub-menu-3{
+    display: none;
+    position: absolute;
+    border: solid 1px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+.nav :nth-child(8):hover .sub-menu-3{
+    display: block;
+}
+.sub-menu-3-I{
+    display: none;
+    position: absolute;
+    border:solid 1px black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.sub-menu-3 :nth-child(4):hover .sub-menu-3-I{
+    display: block;
+    margin-left: 155px;
+    margin-top: -65px;
+}
+.sub-menu-4{
+    display: none;
+    width: 150px;
+    border: solid 1px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+   
+}
+.nav :nth-child(9):hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    border: solid 1px black;
+
+}
+.sub-menu-4-I{
+    display: none;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: -52px;
+    width: 170px;
+    border: solid 1px black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+
+
+}
+.sub-menu-4 :nth-child(3):hover .sub-menu-4-I{
+    display: block;
+}
+.sub-menu-4-II{
+    display: none;
+    position: absolute;
+    margin-top: -53px;
+    margin-left: 148px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    border: solid 1px black;
+   width: 200px;
+}
+.sub-menu-4 :nth-child(5):hover .sub-menu-4-II{
+    display: block;
+}
+.nav-menu-1{
+    display: none;
+}
+.navbar :nth-child(3):hover .nav-menu-1{
+    display: block;
+}
+
+.nav-menu-2{
+    display: none;
+}
+.navbar :nth-child(4):hover .nav-menu-2{
+    display: block;
+}
+.nav-menu-2-I{
+    display: none;
+}
+.nav-menu-2 :nth-child(2):hover .nav-menu-2-I{
+    display: block;
+}
+.nav-menu-3{
+    display: none;
+}
+.navbar :nth-child(8):hover .nav-menu-3{
+    display: block;
+}
+
+
+
+
+.nav-menu-1 li:hover{
+    background-color: rgba(148, 150, 150, 0.466);
+}
+.nav-menu-2 li:hover{
+    background-color: rgba(148, 150, 150, 0.466);
+
+}
+.nav-menu-2-I li:hover{
+    background-color:white;
+
+}
+.nav-menu-3 li:hover{
+    background-color: rgba(148, 150, 150, 0.466);
+}
+
+
+/*-----------------------------------------Hover-End-----------------------------------------*/
+.toggler{
+    color: black;
+    font-size: 11px;
+}
+.toggler:hover{
+    color: black;
+}
+.navbar{
+    display: none;
+}
+/*--------------------------------------@media screen-----start------------------------------*/
+@media screen and (max-width:900px) {
+    .top-bar-I{
+        display: none;
+
+    }
+    .top-bar-II{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+}
+@media screen and (min-width:900px) {
+    .top-bar-III{
+        display: none;
+    }
+  
+}
+@media screen and (max-width:576px) {
+    .info-I{
+        margin-bottom:40px
+    }
+    .info-II{
+        margin-bottom:40px
+    }
+    .independent-logo{
+        text-align: center;
+    }
+}
+
+
+
+/*--------------------------------------@media screen-----end------------------------------*/
+
+.column-bg{
+    background-color: rgb(3, 90, 3);
+}
+small{
+    color: red;
+}
+.column-1{
+    background-color: rgba(165, 235, 165, 0.425);
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.form-group{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+justify-content: space-between;
+margin-bottom: -10px;
+}
+.btn-bg{
+    background-color: orange;
+}
+.box{
+    width: 250px;
+}
